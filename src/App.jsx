@@ -1,13 +1,13 @@
 import './App.css'
 import './index.css'
+import HomePage from './pages/HomePage'
 
 function App() {
 
 
   return (
     <>
-      <h1> App </h1>
-      <button className="custom-button mt-4">Click Me</button>
+      <HomePage />
     </>
   )
 }
