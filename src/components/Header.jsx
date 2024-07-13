@@ -1,10 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './UI/Navbar.jsx';
 
-export default function Header() {
+const Header = () => {
   return (
-    <header className='bg-blue-600 text-white p-4 rounded-xl'>
-        <h1 className=''>Silvis Software</h1>
-        <p>Software with care!</p>
+    <header className="relative bg-blue-500 text-white shadow-lg">
+      <div className="container mx-auto flex justify-between items-center p-4">
+        <div className="flex items-center">
+          <img src="/assets/images/logo.png" alt="Logo" className="h-10 w-10" />
+          <h1 className="text-3xl ml-2">My Profile</h1>
+        </div>
+      </div>
+      <Navbar />
     </header>
-  )
-}
+  );
+};
+
+export default Header;

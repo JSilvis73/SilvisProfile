@@ -7,9 +7,11 @@ import Portfolio from '../components/Portfolio'
 export default function HomePage() {
   return (
     <div>
-      <Header />
-      <About />
-      <Portfolio />
+   <Header />
+      <main className="mt-16">
+        <About />
+        <Portfolio />
+      </main>
       <Footer />
     </div>
   )
