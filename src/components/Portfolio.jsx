@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import walkingPic from "../assets/images/walking.jpg"
 
 const Portfolio = () => {
   return (
@@ -9,7 +10,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard 
             title="Jason's Project" 
-            imgSrc="path/to/your/image.jpg" 
+            imgSrc={walkingPic}
             imgAlt="Jason's project here" 
             description="Description of Project" 
           />
