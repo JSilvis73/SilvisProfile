@@ -24,8 +24,8 @@ export default function About() {
     <div className="">
       <div className="container mx-auto m-2 p-4 bg-scifi/50 rounded-lg bg-glow text-white">
       <h3 className="text-3xl font-bold">Jason Silvis</h3>
-        <div className="flex flex-col md:flex-row">
-          <img className="size-60 " src={walkingPic} alt="An image of me!" />
+        <div className="flex flex-col md:flex-row mt-4 gap-4 items-center" >
+          <img className=" size-60 rounded-full  " src={walkingPic} alt="An image of me!" />
           <p>This paragraph will be used to talk about me</p>
         </div>
       </div>
