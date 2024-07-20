@@ -1,4 +1,3 @@
-/* Implemented to test tailwind is set up properly*/
 
 #root {
   max-width: 100vw;
@@ -14,4 +13,89 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 0.2;
+  }
+  4% {
+    opacity: 1;
+  }
+  8% {
+    opacity: 0.3;
+  }
+  12% {
+    opacity: 1;
+  }
+  16% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.3;
+  }
+}
+
+.about-container {
+  position: relative;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #2d3748;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  animation: flicker 8s infinite; /* Adjusted duration for less frequent flicker */
+}
+
+.about-container::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  animation: pulse 5s ease-in-out infinite; /* Slower pulsing effect */
 }
