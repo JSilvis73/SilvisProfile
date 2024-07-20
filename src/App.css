@@ -15,6 +15,32 @@
   color: #888;
 }
 
+
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px #8ADFDF;
+  }
+  25% {
+    box-shadow: 0 0 15px 4px #B3FEFB;
+  }
+
+  50% {
+    box-shadow: 0 0 15px 4px #F5FEFE;
+  }
+
+  75% {
+    box-shadow: 0 0 15px 4px #B3FEFB;
+  }
+}
+
+.bg-glow {
+  animation: glow 2s infinite;
+}
+
+
+
+
 @keyframes pulse {
   0% {
     transform: scale(1);

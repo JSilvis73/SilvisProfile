@@ -3,15 +3,27 @@
       opacity: 1;
     }
     5% {
-      opacity: 0.3;
+      opacity: 0;
     }
     10% {
       opacity: 1;
     }
-    12% {
-      opacity: 0.7;
-    }
     15% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    35% {
+      opacity: 0;
+    }
+    40% {
       opacity: 1;
     }
   }
@@ -27,8 +39,12 @@
     overflow: hidden;
     box-sizing: border-box; /* Ensure consistent sizing */
   }
-  
+  /*
   .about-container.flicker {
     animation: flicker 0.5s ease-in-out; /* Flicker effect */
-  }
+  /*}
+  
+  .about-container.normal {
+    /* No animation for normal state */
+  /*}*/
   
