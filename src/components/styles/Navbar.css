@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a {
+    font-weight: 500;
+    color: #509B97;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #B3FEFB;
+  }
