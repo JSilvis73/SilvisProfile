@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import walkingPic from "../assets/images/walking.jpg";
+import './styles/About.css'
 
 export default function About() {
   // const [isFlickering, setIsFlickering] = useState(false);
@@ -22,11 +23,11 @@ export default function About() {
 
   return (
     <div className="mt-2">
-      <div className="container mx-auto  p-4 bg-scifi/50 rounded-lg bg-glow text-white">
+      <div className="container mx-auto  p-4 bg-scifi/50 rounded-lg bg-glow text-white backgroundPattern">
       <h3 className="text-3xl font-bold">Jason Silvis</h3>
         <div className="flex flex-col md:flex-row mt-4 gap-4 items-center" >
           <img className=" size-60 rounded-full  " src={walkingPic} alt="An image of me!" />
-          <p>This paragraph will be used to talk about me</p>
+          <p className="bg-slate-500/95 rounded-lg p-2">This paragraph will be used to talk about me</p>
         </div>
       </div>
     </div>

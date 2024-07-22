@@ -1,3 +1,5 @@
+
+
 @keyframes flicker {
     0%, 100% {
       opacity: 1;
@@ -48,3 +50,6 @@
     /* No animation for normal state */
   /*}*/
   
+  .backgroundPattern {
+    background-image: url("../../assets/images/beehive-37436_1280.png");
+    }
