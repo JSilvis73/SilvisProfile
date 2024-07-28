@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectCard({ title, imgSrc, imgAlt, description }) {
   return (
-    <div className="bg-slate-500 rounded-lg shadow-lg overflow-hidden m-4">
+    <div className="bg-slate-500/95 border-2 border-slate-950 rounded-lg shadow-lg overflow-hidden m-4">
       <div>
         {imgSrc && (
           <img src={imgSrc} alt={imgAlt} className="w-full h-48 object-cover" />
