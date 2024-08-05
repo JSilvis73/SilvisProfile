@@ -4,6 +4,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Portfolio from "../components/Portfolio";
 import Navbar from "../components/UI/Navbar";
+import Skills from "../components/Skills";
 
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Header />
       <main className="mt-6">
         <About />
+        <Skills />
         <Portfolio />
       </main>
       <Footer />
