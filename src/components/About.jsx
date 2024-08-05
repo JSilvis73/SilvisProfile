@@ -23,7 +23,7 @@ export default function About() {
 
   return (
     <div className="mt-2">
-      <div className="container mx-auto  p-4 bg-scifi/50 rounded-lg bg-glow text-white backgroundPattern">
+      <div className="container mx-auto  p-4 bg-scifi/50 rounded-lg bg-glow text-white text-center backgroundPattern">
       <h3 className="text-3xl font-bold">Jason Silvis</h3>
         <div className="flex flex-col md:flex-row mt-4 gap-4 items-center" >
         <div className="hexagon-container">
