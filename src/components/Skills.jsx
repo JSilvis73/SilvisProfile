@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsCard from "./SkillsCard";
-import { faJs, faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
+import { faJs, faHtml5, faCss3, faReact, faGit } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -14,7 +14,7 @@ export default function Skills() {
           <br />
           Here are some of mine.
         </p>
-        <div className="flex md:flex-row mt-4 gap-4 justify-center">
+        <div className="flex flex-col md:flex-row mt-4 gap-4 justify-center">
           <SkillsCard
             title="HTML"
             imgURL=""
@@ -35,6 +35,20 @@ export default function Skills() {
             faIcon={faJs}
             altTxt="JavaScript Symbol"
             skillDesc="Basic language used for artistic design of websites."
+          />
+               <SkillsCard
+            title="React"
+            imgURL=""
+            faIcon={faReact}
+            altTxt="React Symbol"
+            skillDesc="Framework built and used by Facebook."
+          />
+                   <SkillsCard
+            title="Git"
+            imgURL=""
+            faIcon={faGit}
+            altTxt="React Symbol"
+            skillDesc="Git is used for version control."
           />
 
         </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
+import {faFacebook, faDiscord } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   return (
@@ -17,6 +19,11 @@ const Navbar = () => {
         <a href="#contact" className="mx-2">
           Contact
         </a>
+        <div className=" flex border-2 border-scifi/50 rounded-xl">
+          <a><FontAwesomeIcon className="mx-2" icon={faFacebook} /></a>
+          <a><FontAwesomeIcon className="mx-2" icon={faDiscord} /></a>
+          <a><FontAwesomeIcon icon="fa-solid fa-envelope" /></a>
+        </div>
       </div>
     </nav>
   );
