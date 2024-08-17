@@ -6,7 +6,7 @@ import { faJs, faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Skills() {
   return (
-    <div className="mt-6">
+    <div className="">
       <div className="container mx-auto  p-4 bg-scifi/50 rounded-lg bg-glow text-white text-center">
         <h3 className="text-3xl font-bold">Skills</h3>
         <p className="mt-2 border-2 border-black bg-slate-500/95 rounded-lg p-2">
