@@ -8,25 +8,25 @@ import Skills from "../components/Skills";
 
 export default function HomePage() {
   return (
-    <div className="container mx-auto p-8 ">
+    <div className="container mx-auto p-6 ">
       <nav className="nav-wrapper">
         <Navbar />
       </nav>
       <main className="mt-6">
-        <div className="header-wrapper">
+        <div id="header" className="header-wrapper">
           <Header />
         </div>
-        <div className="about-wrapper">
+        <div id="about" className="about-wrapper">
           <About />
         </div>
-        <div className="skills-wrapper">
+        <div id="skills" className="skills-wrapper">
           <Skills />
         </div>
-        <div className="portfolio-wrapper">
+        <div id="portfolio" className="portfolio-wrapper">
           <Portfolio />
         </div>
       </main>
-      <div className="footer-wrapper">
+      <div id="footer" className="footer-wrapper">
         <Footer />
       </div>
     </div>

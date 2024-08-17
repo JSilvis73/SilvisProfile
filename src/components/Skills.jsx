@@ -1,5 +1,8 @@
 import React from "react";
 import SkillsCard from "./SkillsCard";
+import { faJs, faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
+
+
 
 export default function Skills() {
   return (
@@ -15,18 +18,21 @@ export default function Skills() {
           <SkillsCard
             title="HTML"
             imgURL=""
+            faIcon={faHtml5}
             altTxt="HTML Symbol"
             skillDesc="Basic language used for structural design of websites."
           />
            <SkillsCard
             title="CSS"
             imgURL=""
+            faIcon={faCss3}
             altTxt="CSS Symbol"
             skillDesc="Basic language used for artistic design of websites."
           />
             <SkillsCard
             title="JavaScript"
             imgURL=""
+            faIcon={faJs}
             altTxt="JavaScript Symbol"
             skillDesc="Basic language used for artistic design of websites."
           />
