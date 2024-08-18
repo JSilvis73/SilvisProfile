@@ -5,7 +5,7 @@ import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   return (
-    <nav className=" backdrop-blur-sm  navbar-light fixed top-0 p-4 border-2 w-full left-0 md:bg-slate-500/95  md:w-1/2 md:left-1/4 rounded-b-lg ">
+    <nav className=" backdrop-blur-sm  navbar-light fixed top-0 p-4 w-full left-0 md:bg-slate-500/95  md:w-1/2 md:left-1/4 rounded-b-lg ">
       <div className="container mx-auto flex flex-row ">
         <div className="">
         <a href="#about" className="mx-2">
@@ -21,7 +21,7 @@ const Navbar = () => {
           Contact
         </a>
         </div>
-        <div className=" flex border-2 border-scifi/50 rounded-xl">
+        <div className="ml-auto  flex border-2 border-scifi/50 rounded-xl">
           <a><FontAwesomeIcon className="mx-2" icon={faFacebook} /></a>
           <a><FontAwesomeIcon className="mx-2" icon={faDiscord} /></a>
           <a><FontAwesomeIcon icon="fa-solid fa-envelope" /></a>

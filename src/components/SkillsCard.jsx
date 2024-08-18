@@ -10,7 +10,7 @@ export default function SkillsCard({
   skillDesc,
 }) {
   return (
-    <div className="card-container border-2 border-black bg-slate-500 rounded-lg p-4 w-1/3">
+    <div className="card-container border-2 border-black bg-slate-500 rounded-lg p-2 h-48 w-36 ">
       <div>
         <h4>{title}</h4>
       </div>
@@ -23,7 +23,7 @@ export default function SkillsCard({
       )}
 
       <div className="card-desc-container">
-        <p>{skillDesc}</p>
+        <p className="text-sm">{skillDesc}</p>
       </div>
     </div>
   );

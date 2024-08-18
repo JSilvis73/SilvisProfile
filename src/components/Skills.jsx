@@ -14,7 +14,8 @@ export default function Skills() {
           <br />
           Here are some of mine.
         </p>
-        <div className="flex flex-col sm:flex-row mt-4 gap-4 justify-center">
+        <div className="flex flex-row flex-wrap gap-2 p-2 justify-center">
+          
           <SkillsCard
             title="HTML"
             imgURL=""
@@ -22,6 +23,7 @@ export default function Skills() {
             altTxt="HTML Symbol"
             skillDesc="Basic language used for structural design of websites."
           />
+          
            <SkillsCard
             title="CSS"
             imgURL=""
