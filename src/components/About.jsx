@@ -6,7 +6,7 @@ import "./styles/About.css";
 export default function About() {
   return (
     <div className="">
-      <div className="container mx-auto  p-6 bg-scifi/50 rounded-lg  bg-glow text-white text-center">
+      <div className="container mx-auto  p-6 bg-scifi/50 rounded-lg  bg-glow text-white text-center backgroundPattern">
         <h3 className="text-3xl font-bold">Hello!</h3>
         <h3 className="text-3xl font-bold">My name is Jason Silvis</h3>
         <div className="flex flex-col md:flex-row mt-4 gap-4 items-center">

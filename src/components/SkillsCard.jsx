@@ -18,7 +18,7 @@ export default function SkillsCard({
         <img src={imgURL} aria-label={altTxt} />
       ) : (
         faIcon && (
-            <FontAwesomeIcon className="size-16 m-2 hover:text-blue-400 transition-colors duration-300" icon={faIcon} />
+            <FontAwesomeIcon className="size-16  hover:animate-spin m-2 hover:text-blue-400 transition-colors duration-300" icon={faIcon} />
         )
       )}
 
