@@ -1,28 +1,23 @@
-import './App.css'
-import './index.css'
-import './components/styles/About.css'
-import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom"
-import HomePage from './pages/HomePage'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import ContactPage from './pages/ContactPage'
+import "./App.css";
+import "./index.css";
+import "./components/styles/About.css";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import ContactPage from "./pages/ContactPage";
+import Wrapper from "./components/primitive/Wrapper";
 function App() {
-
-
   return (
     <Router>
-    <div className=" bg-gradient-to-b from-neutral-400 via-neutral-500 to-neutral-600 min-h-screen flex flex-col ">
-    <Routes>
-      <Route path='/' element={<HomePage />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/portfolio' element={<Portfolio />} />
-      <Route path='/contact' element={<ContactPage />} />
-      
-    
-    </Routes>
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<Wrapper children={<About />} />} />
+        <Route path="/portfolio" element={<Wrapper children={<Portfolio />} />} />
+        <Route path="/contact" element={<Wrapper children={<ContactPage />} />} />
+     </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

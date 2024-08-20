@@ -1,5 +1,7 @@
 
-
+body {
+  background: rgb(134, 134, 134);
+}
 
 @keyframes glow {
   0%, 100% {

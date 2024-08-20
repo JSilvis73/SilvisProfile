@@ -9,7 +9,7 @@ import Skills from "../components/Skills";
 export default function HomePage() {
   return (
     
-    <div className="container mx-auto w-full p-4">
+    <div className="container mx-auto w-full p-4 ">
       <nav className="nav-wrapper ">
         <Navbar />
       </nav>
