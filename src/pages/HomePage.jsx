@@ -8,26 +8,18 @@ import Skills from "../components/Skills";
 
 export default function HomePage() {
   return (
-    
     <div className="container mx-auto w-full p-4 ">
       <nav className="nav-wrapper ">
         <Navbar />
       </nav>
-      <main className="mt-16">
-        <div id="header" className="header-wrapper">
-          <Header />
-        </div>
-        <div id="about" className="about-wrapper mt-6">
-          <About />
-        </div>
-        <div id="skills" className="skills-wrapper mt-6">
-          <Skills />
-        </div>
-        <div id="portfolio" className="portfolio-wrapper mt-6">
-          <Portfolio />
+      <main className="mt-16 ">
+        <div className="flex flex-col text-white min-h-screen w-screen justify-center align-center">
+          <p>
+          Home
+          </p>
         </div>
       </main>
-      <div id="footer" className="footer-wrapper mt-6">
+      <div id="footer" className="footer-wrapper ">
         <Footer />
       </div>
     </div>

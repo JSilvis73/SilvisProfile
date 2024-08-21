@@ -9,6 +9,8 @@ import ContactPage from "./pages/ContactPage";
 import Wrapper from "./components/primitive/Wrapper";
 function App() {
   return (
+    <div className="">
+      <div className="overlay">
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -17,6 +19,9 @@ function App() {
         <Route path="/contact" element={<Wrapper children={<ContactPage />} />} />
      </Routes>
     </Router>
+    
+    </div>
+    </div>
   );
 }
 
