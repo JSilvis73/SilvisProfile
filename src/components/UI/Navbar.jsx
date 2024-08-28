@@ -24,8 +24,8 @@ const Navbar = () => {
 
         </div>
         <div className="ml-auto  flex border-2 border-scifi/50 rounded-xl">
-          <a><FontAwesomeIcon className="mx-2" icon={faFacebook} /></a>
-          <a><FontAwesomeIcon className="mx-2" icon={faDiscord} /></a>
+          <a><FontAwesomeIcon className="mx-2 hover:animate-ping" icon={faFacebook} /></a>
+          <a><FontAwesomeIcon className="mx-2 hover:animate-spin" icon={faDiscord} /></a>
           <a><FontAwesomeIcon icon="fa-solid fa-envelope" /></a>
         </div>
       </div>

@@ -1,32 +1,29 @@
 import React from "react";
-import Header from "../components/Header";
-import About from "../components/About";
 import Footer from "../components/Footer";
-import Portfolio from "../components/Portfolio";
 import Navbar from "../components/UI/Navbar";
-import Skills from "../components/Skills";
 import codeVid from "../assets/videos/codingvid.mp4";
 import "./styles/HomePage.css";
 
 export default function HomePage() {
   return (
-    <div className="container mx-auto w-full p-4 ">
+    <div className="mx-auto w-full">
+       <main className=" w-full relative">
       <nav className="nav-wrapper ">
         <Navbar />
       </nav>
 
-      <main className="mt-16 w-full relative">
+     
         {/* Background Video */}
         <div className="absolute inset-0 z-0">
           <video
-            className="w-full h-full object-cover "
+            className="w-full h-full object-cover"
             src={codeVid} 
             autoPlay
             loop
             muted
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-60 "></div>
         </div>
 
         {/* Content */}

@@ -9,7 +9,9 @@ export default {
       colors: {
         'scifi': '#509B97'
       }
+      
     },
+    
   },
   plugins: [],
 }
