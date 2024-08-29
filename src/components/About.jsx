@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import walkingPic from "../assets/images/walking.jpg";
 
+
 import "./styles/About.css";
 
 export default function About() {
@@ -32,6 +33,7 @@ export default function About() {
             and hobbies I’ve always loved.
           </p>
           </div>
+         
         </div>
       </div>
     </div>
