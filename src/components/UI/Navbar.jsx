@@ -9,6 +9,9 @@ const Navbar = () => {
     <nav className=" backdrop-blur-sm  navbar-light fixed top-0 p-4 w-full left-0 z-50 md:bg-slate-500/95  md:w-1/2 md:left-1/4 rounded-b-lg ">
       <div className="container mx-auto flex flex-row ">
         <div className="">
+          <img src="" aria-label="Logo"/>
+        </div>
+        <div className="">
         <Link to="/"  className="mx-2">
           Home
         </Link>
