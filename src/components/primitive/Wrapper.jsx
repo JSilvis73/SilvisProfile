@@ -12,14 +12,14 @@ export default function Wrapper({children}) {
         {/* Background Video */}
         <div className="absolute inset-0 z-0">
           <video
-            className="w-full h-full object-cover"
+            className="w-full h-full border-2 object-cover"
             src={codeVid} 
             autoPlay
             loop
             muted
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-60 "></div>
+          <div className="absolute inset-0 bg-black bg-opacity-10 "></div>
         </div>
 
         {/* Content */}
