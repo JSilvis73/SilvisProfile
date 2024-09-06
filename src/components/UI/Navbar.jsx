@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className=" backdrop-blur-sm  navbar-light fixed top-0 p-4 w-full left-0 z-50 rounded-b-lg ">
+    <nav className=" backdrop-blur-sm  navbar-light fixed top-0 p-4 w-full left-0 z-50 ">
       <div className="container mx-auto flex flex-row ">
         <div className="">
           <img src="" aria-label="Logo"/>
