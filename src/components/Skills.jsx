@@ -7,14 +7,14 @@ import { faJs, faHtml5, faCss3, faReact, faGit } from "@fortawesome/free-brands-
 export default function Skills() {
   return (
     <div className="">
-      <div className="container mx-auto  p-4 bg-scifi/50 rounded-lg bg-glow text-white text-center">
+      <div className="container mx-auto  p-4 text-white text-center">
         <h3 className="text-3xl font-bold">Skills</h3>
-        <p className="mt-2 border-2 border-black bg-slate-500/95 rounded-lg p-2">
+        <p className="mt-2">
           Of course, you can't get anywhere without them!
           <br />
           Here are some of mine.
         </p>
-        <div className="flex flex-row flex-wrap gap-2 p-2 justify-center">
+        <div className=" mt-4 flex flex-row flex-wrap gap-2 p-2 justify-center">
           
           <SkillsCard
             title="HTML"

@@ -7,16 +7,16 @@ import "./styles/About.css";
 export default function About() {
   return (
     <div className="">
-      <div className="container mx-auto  p-6 bg-scifi/50 rounded-lg  bg-glow text-white text-center backgroundPattern">
-        <h3 className="text-3xl font-bold">Hello!</h3>
-        <h3 className="text-3xl font-bold">My name is Jason Silvis</h3>
+      <div className="container mx-auto  p-6 text-white text-center">
+        <h3 className="text-3xl font-bold">About Me</h3>
+       
         <div className="flex flex-col md:flex-row mt-4 gap-4 items-center">
           <div className="hexagon-container">
             <div className="hexagon-border"></div>
             <img className="hexagon" src={walkingPic} alt="An image of me!" />
           </div>
           <div>
-          <p className="bg-slate-500/95 rounded-lg p-4 border-2 border-black  shadow-xl">
+          <p className="bg-scifi/90 rounded-lg p-4 border-2 border-black  shadow-xl">
             I’m someone who’s always enjoyed diving deep into the things that
             spark my curiosity, whether it’s exploring strategy games that push
             me to think creatively or spending time outdoors tending to my
