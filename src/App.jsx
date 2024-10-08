@@ -8,22 +8,20 @@ import Portfolio from "./components/Portfolio";
 import ContactPage from "./pages/ContactPage";
 import Wrapper from "./components/primitive/Wrapper";
 import Skills from "./components/Skills.jsx";
+import LandingPage from "./components/LandingPage.jsx";
 
 function App() {
   return (
     <div className="">
-      <div className="overlay">
     <Router>
       <Routes>
-        <Route path="/" element={<Wrapper children={<HomePage />} />} />
-        <Route path="/about" element={<Wrapper children={<About />} />} />
-        <Route path="/skills" element={<Wrapper children={<Skills />} />} />
-        <Route path="/portfolio" element={<Wrapper children={<Portfolio />} />} />
-        <Route path="/contact" element={<Wrapper children={<ContactPage />} />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<ContactPage />}  />
      </Routes>
     </Router>
-    
-    </div>
     </div>
   );
 }

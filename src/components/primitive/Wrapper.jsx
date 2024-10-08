@@ -4,7 +4,7 @@ import codeVid from "../../assets/videos/codingvid.mp4";
 
 export default function Wrapper({children}) {
   return (
-    <div className='relative  min-h-screen flex flex-col'>
+    <div className='relativeh-full flex flex-col'>
       <div className='mt-16'>
       <Navbar />
       

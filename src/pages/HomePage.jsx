@@ -3,20 +3,25 @@ import Footer from "../components/Footer";
 import Navbar from "../components/UI/Navbar";
 
 import "./styles/HomePage.css";
+import About from "../components/About";
+import Wrapper from "../components/primitive/Wrapper";
+import LandingPage from "../components/LandingPage";
 
 export default function HomePage() {
   return (
     <div className="mx-auto w-full">
-       <main className=" w-full relative">
-      <nav className="nav-wrapper ">
-        <Navbar />
-      </nav>
+      <main className="  w-full relative">
+        <nav className="nav-wrapper ">
+          <Navbar />
+        </nav>
 
-        <div className="relative z-10 flex flex-col text-white min-h-screen justify-center items-center">
-          <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
-          <p className="text-lg">Home</p>
-        </div>
+       <Wrapper children={<LandingPage />} />
+       <About />
+        
+
+
       </main>
+
       <div id="footer" className="footer-wrapper ">
         <Footer />
       </div>

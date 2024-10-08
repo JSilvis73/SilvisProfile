@@ -16,7 +16,8 @@ export default function About() {
             <img className="hexagon" src={walkingPic} alt="An image of me!" />
           </div>
           <div>
-          <p className="bg-scifi/90 rounded-lg p-4 border-2 border-black  shadow-xl">
+          <p className="bg-scifi/90
+           rounded-lg p-4 border-2 border-black  shadow-xl">
             I’m someone who’s always enjoyed diving deep into the things that
             spark my curiosity, whether it’s exploring strategy games that push
             me to think creatively or spending time outdoors tending to my
